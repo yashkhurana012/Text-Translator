@@ -1,43 +1,53 @@
-.cont{
+.cont {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #f0f0f0;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
-
-.cont  h1{
+.cont h1 {
     margin: 1.5rem 0;
+    font-size: 2rem;
+    color: #333;
 }
 
-.cont .inputs{
+.cont .inputs {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.cont .inputs .source , .target{
+.cont .inputs .source, .target {
     display: flex;
-    column-gap: 0.5rem;
-    margin-bottom: 1rem;
-    
+    column-gap: 1rem;
+    margin-bottom: 1.5rem;
 }
 
-.cont .inputs input{
-    padding: 0.2rem;
-    border-radius: 5px;
-    border: 1px solid rgba(76, 76, 76, 0.574);
-    background-color: whitesmoke;
+.cont .inputs input {
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
     margin-bottom: 1rem;
+    font-size: 1rem;
 }
 
-.cont button{
-    margin-top: 1rem;
-    padding: 0.5rem 2rem;
+.cont button {
+    margin-top: 1.5rem;
+    padding: 0.7rem 2.5rem;
     cursor: pointer;
-    border-radius: 5px;
-    color: white;
-    background-color: black;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #333;
     border: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.cont button:hover {
+    background-color: #555;
 }
